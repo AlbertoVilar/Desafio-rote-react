@@ -1,0 +1,36 @@
+
+header {
+     background-color: var(--color-bg-primary);
+     width: 100%;
+     max-width: 1280px;
+     height: 70px;
+     margin: 0 auto;
+     padding: 20px;
+}
+
+.header-component {
+  
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+ }
+ 
+ .home-icon {
+    width: 30px;
+ }
+
+ .section-nav {
+    display: flex;
+    justify-content: space-between;    
+}
+
+ ul  {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    color: var(--color-ft-primary);
+  
+}
