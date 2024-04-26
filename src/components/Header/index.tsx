@@ -6,15 +6,15 @@ export default function Header() {
   return (
     <header className="">
       <nav className="container  section-nav">
-          <ul className="nav-menu">
+          <ul className="nav-bar-menu">
               <Link to="/">
-                <li className="Início">Início</li>
+                <li className="nav-menu">Início</li>
               </Link>
               <Link to="/produtos">
-                <li className="Produtos">Produtos</li>
+                <li className="nav-menu">Produtos</li>
               </Link>
-              <Link to="/">
-                <li className="Sbre nós">Sobre nós</li>
+              <Link to="/sobre">
+                <li className="nav-menu">Sobre nós</li>
               </Link>
           </ul>
           <img

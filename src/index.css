@@ -12,7 +12,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
- 
+  list-style-type: none;
+  text-decoration: none;
 }
 
 body {
@@ -24,22 +25,13 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
- 
-.size-page {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.model-containers {
-  width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-}
 
-.nav-menu  {
+.nav-bar-menu  {
   display: flex;
   list-style-type: none;
   gap: 20px;
-  color: var(--color-ft-secundary);
-
+  
 }
+
+
 

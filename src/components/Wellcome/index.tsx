@@ -1,8 +1,10 @@
+import CardMensage from "../CardMensage";
+
 
 const Wellcome = () => {
     return (
         <div className="container">
-             <h1>Bem vindos!!!</h1>
+             <CardMensage msg = "Seja bem vindo!" />  
         </div>   
     );
 }
