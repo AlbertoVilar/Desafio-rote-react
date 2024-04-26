@@ -2,7 +2,13 @@
 
 
 const Card = () => {
-  return <h1>Bem vindos!</h1>;
+  return (
+    <main>
+      <section>
+        <div className="product-card">Computador</div>
+      </section>
+    </main>
+  );
 }
 
 export default Card;

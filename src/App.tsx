@@ -1,12 +1,12 @@
-import Header from "./components/Header";
 
+import SubNav from "./components/SubNav";
 
 
 function App() {
  
 
   return (
-    <Header />
+    <SubNav />
   )
 }
 

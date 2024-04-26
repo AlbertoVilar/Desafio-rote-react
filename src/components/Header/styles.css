@@ -27,10 +27,3 @@ header {
     justify-content: space-between;    
 }
 
- ul  {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    color: var(--color-ft-primary);
-  
-}
