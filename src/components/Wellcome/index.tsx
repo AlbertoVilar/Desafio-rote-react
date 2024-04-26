@@ -1,5 +1,9 @@
 
 const Wellcome = () => {
-    return <h1>Bem vindos!!!</h1>
+    return (
+        <div className="container">
+             <h1>Bem vindos!!!</h1>
+        </div>   
+    );
 }
 export default Wellcome;

@@ -1,4 +1,6 @@
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./routes/Home/home";
 import SubNav from "./components/SubNav";
 
 
@@ -6,7 +8,14 @@ function App() {
  
 
   return (
-    <SubNav />
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element = {<Home />}>
+              <Route path="produtos" element = {<SubNav />} />
+
+            </Route>
+        </Routes>
+    </BrowserRouter>
   )
 }
 
