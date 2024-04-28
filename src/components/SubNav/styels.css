@@ -4,8 +4,11 @@
     display: flex;
     align-items: center;
     padding-left: 15px;
-   ;
+   
 }
-.nav-item {
-    color: var(--color-ft-secundary); 
- } 
+
+li {
+    color: var( --color-ft-secundary);
+}
+
+ 

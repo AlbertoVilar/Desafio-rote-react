@@ -17,12 +17,15 @@ export default function Header() {
                 <li className="nav-menu">Sobre nós</li>
               </Link>
           </ul>
-          <img
-          src={HomeImg}
-          alt="Home"
-          title="Página inicial"
-          className="home-icon"
-        />
+          <Link to={"/"}>
+                <img
+                src={HomeImg}
+                alt="Home"
+                title="Página inicial"
+                className="home-icon"
+              />
+          </Link>
+          
       </nav>
     </header>
   );

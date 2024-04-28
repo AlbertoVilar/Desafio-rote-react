@@ -1,8 +1,17 @@
+
+import { Outlet } from "react-router-dom";
 import SubNav from "../../../components/SubNav";
 
 const Products = () => {
+
+  
+
     return (
-        <SubNav />
+        <>
+         <SubNav />
+         <Outlet />
+        </>
+        
     );
 }
 export default Products;

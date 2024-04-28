@@ -1,0 +1,20 @@
+
+.box-products {
+   height: 200px;
+}
+
+.box-products-details {
+    display: block;
+    height: 100%;
+    flex-direction: column;
+   
+}
+
+.box-produc-name {
+    padding: 20px;
+}
+
+.box-products-details {
+    padding: 20px;
+}
+
