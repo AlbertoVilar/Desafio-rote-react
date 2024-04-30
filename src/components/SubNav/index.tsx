@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./styels.css"
 import { ProductsList } from "../../ProductsList";
+import { NavLink } from "react-router-dom";
 
 const SubNav = ()=> {
     
@@ -11,9 +12,9 @@ const SubNav = ()=> {
            
             {ProductsList.map((product) => 
             
-            <Link to={`/produtos/${product.id}`} key={product.id}>
+            <NavLink to={`/produtos/${product.id}`} key={product.id}  className={({isActive}) => isActive ? "nave-menu menu-active" : "nave-menu"}>
                <li>{product.name}</li>
-            </Link>)}
+            </NavLink>)}
         </ul>
     </nav>
 

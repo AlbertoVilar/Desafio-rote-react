@@ -12,6 +12,9 @@ header {
 .nav-menu {
    color: var(--color-ft-primary); 
 }
+.menu-active {
+   font-weight: 700;
+}
  
  .home-icon {
     width: 30px;
